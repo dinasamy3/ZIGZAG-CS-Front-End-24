@@ -1,0 +1,178 @@
+body{
+   /*position: relative;*/
+   
+   background-color: bisque;
+}
+
+    
+
+.container{
+  
+background-color: white;
+width: 60%;
+position: absolute;
+left: 50%;
+transform: translateX(-50% );
+border-radius: 10PX;
+}
+
+.img{
+    width: 70%;
+    border-radius: 20PX;
+    margin: 25PX;
+}
+
+@media  (min-width:570px) {
+    .container{
+        width:570px ;
+        margin-left: 25px;
+    }
+    .li5,.li6,.li7{
+        word-spacing: 20px;
+    }
+
+}
+@media (min-width:375px) {
+    .container{
+        width: 300px;
+       /* margin-left:25px ;*/
+        /*padding-right:20px ;*/
+
+    }
+    .li5,.li6,.li7{
+        word-spacing: 20px;
+    }
+    .four,.li1,.li2{
+        margin-right: 20px;
+        padding-right: 20px;
+        
+    }
+}
+@media (min-width:1200px) {
+    .container{
+        
+        margin-left: 25px;
+    }
+    
+}
+
+.one{
+margin-left: 25px;
+font-family: sans-serif;
+font-weight: bold;
+
+}
+
+.two{
+    margin-left: 25px;
+    
+}
+.three{
+    background-color: bisque;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+.four{
+    color:rgb(168, 42, 84) ;
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-right: 25px;
+    padding-right: 25px;
+    
+}
+
+.li1{
+    padding-left: 20px;
+    font-family: sans-serif;
+    
+}
+
+span.hilight,span.hi2,span.hi3 {
+    font-weight: bold;
+
+  }
+    span.hi4,span.hi5,span.hi6,span.hi7,span.hi8,span.hi9{
+        font-weight: bold;
+    }
+
+
+.li1::marker {
+    color: rgb(168, 42, 84);
+}
+
+.five{
+    color: brown;
+    margin-left: 25px;
+    font-size:20px;
+    font-size:25px;
+}
+.li2::marker {
+    color: brown;
+}
+.li2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:  20px;
+    margin-left: 20px;
+
+}
+.six{
+    color: brown;
+    margin-left: 25px;   
+}
+.li3::marker {
+    color: brown;
+}
+.li3{
+    margin-left: 20px;
+    padding-left: 20px;
+    
+}
+.seven{
+    color: brown;
+    margin-left: 25px;
+}
+.li4{
+    
+   list-style: none;
+    margin: 20px;
+word-spacing: 300px;
+    
+    
+}
+.li5{
+    list-style: none;
+    margin: 20px;
+    word-spacing: 320px;
+
+}
+.li6{
+    list-style: none;
+    margin: 20px;
+    word-spacing: 310px;  
+} 
+.li7{
+    list-style: none;
+    margin: 20px;
+    word-spacing: 332px;
+}
+.t2{
+    margin-left: 25px;
+}
+.line{
+    margin-right: 25px;
+    color: rgb(255, 251, 251);
+
+}
+.line2{
+    margin-right: 25px;
+    color: rgb(255, 251, 251);
+    margin-left: 25px;
+  
+}
+span.hi10,span.hi11,span.hi12,span.hi13{
+    color: brown;
+    font-weight: bold;
+    font-size: large;
+}
